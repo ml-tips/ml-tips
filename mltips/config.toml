@@ -1,0 +1,17 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Machine Learning Tips"
+theme = "kube"
+description = "Bits and pieces of my machine learning and data science knowledge"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "ml-tips" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "myemail@myaddress.xxx"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
